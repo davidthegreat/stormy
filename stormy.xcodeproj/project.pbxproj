@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		211D2A86013144FF5E9D6F73 /* Pods_stormy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D8588E63F0FD07729AE263 /* Pods_stormy.framework */; };
 		D0920C921EC2565B00BBE06B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0920C911EC2565B00BBE06B /* AppDelegate.swift */; };
 		D0920C941EC2565B00BBE06B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0920C931EC2565B00BBE06B /* ViewController.swift */; };
 		D0920C971EC2565B00BBE06B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0920C951EC2565B00BBE06B /* Main.storyboard */; };
@@ -34,6 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57C285303261B3EC6CED3069 /* Pods_stormyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stormyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D8588E63F0FD07729AE263 /* Pods_stormy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stormy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		856013E0D8F1AB0EFDDE0737 /* Pods-stormy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stormy.release.xcconfig"; path = "Pods/Target Support Files/Pods-stormy/Pods-stormy.release.xcconfig"; sourceTree = "<group>"; };
+		9E49A68974E54DB06C89F893 /* Pods-stormy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stormy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-stormy/Pods-stormy.debug.xcconfig"; sourceTree = "<group>"; };
+		A5EB6B9625649182909C5100 /* Pods_stormyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stormyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0920C8E1EC2565B00BBE06B /* stormy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stormy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0920C911EC2565B00BBE06B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0920C931EC2565B00BBE06B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				211D2A86013144FF5E9D6F73 /* Pods_stormy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56576476A2270A89F87905DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E49A68974E54DB06C89F893 /* Pods-stormy.debug.xcconfig */,
+				856013E0D8F1AB0EFDDE0737 /* Pods-stormy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9AA695922B49FC99C728F27C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61D8588E63F0FD07729AE263 /* Pods_stormy.framework */,
+				A5EB6B9625649182909C5100 /* Pods_stormyTests.framework */,
+				57C285303261B3EC6CED3069 /* Pods_stormyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D0920C851EC2565B00BBE06B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +107,8 @@
 				D0920CA51EC2565C00BBE06B /* stormyTests */,
 				D0920CB01EC2565C00BBE06B /* stormyUITests */,
 				D0920C8F1EC2565B00BBE06B /* Products */,
+				56576476A2270A89F87905DF /* Pods */,
+				9AA695922B49FC99C728F27C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0920CB61EC2565C00BBE06B /* Build configuration list for PBXNativeTarget "stormy" */;
 			buildPhases = (
+				2C14BE6B2F35FD03FB48EF16 /* [CP] Check Pods Manifest.lock */,
 				D0920C8A1EC2565B00BBE06B /* Sources */,
 				D0920C8B1EC2565B00BBE06B /* Frameworks */,
 				D0920C8C1EC2565B00BBE06B /* Resources */,
+				23972B8F8EE99DD7A872CFB8 /* [CP] Embed Pods Frameworks */,
+				02CAED3CEDFF01E7C2E7B105 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +287,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02CAED3CEDFF01E7C2E7B105 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-stormy/Pods-stormy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23972B8F8EE99DD7A872CFB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-stormy/Pods-stormy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C14BE6B2F35FD03FB48EF16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D0920C8A1EC2565B00BBE06B /* Sources */ = {
@@ -415,6 +494,7 @@
 		};
 		D0920CB71EC2565C00BBE06B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E49A68974E54DB06C89F893 /* Pods-stormy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MSPH9VBN9U;
@@ -429,6 +509,7 @@
 		};
 		D0920CB81EC2565C00BBE06B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 856013E0D8F1AB0EFDDE0737 /* Pods-stormy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MSPH9VBN9U;
