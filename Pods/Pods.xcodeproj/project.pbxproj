@@ -7,26 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B1785D4BEBE6F58677FE08E471D0E0C /* Pods-stormyTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBBC7F2DF67BCDAF8C8CCEEB0DC7A21 /* Pods-stormyTests-dummy.m */; };
 		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */; };
 		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B44A27EFBB0DA84D738057B77F3413B1 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC8F64AB35069962B1B2B3D4441679B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */; };
-		4AB3BDB49B2A04E2A83751E8FA657AD8 /* Pods-stormy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B04620DD8D185148050868881F3333B /* Pods-stormy-dummy.m */; };
+		4AB3BDB49B2A04E2A83751E8FA657AD8 /* Pods-stormy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C03965E3E1DD7F9FD84294FF44327E5 /* Pods-stormy-dummy.m */; };
 		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E230A0448B394DE26E688DAC8E6201E /* Request.swift */; };
-		5FB6DECB4731D8F122CA9AFC29D40EA0 /* Pods-stormy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B7FF5208E63CB79BDD64D5385BA628C /* Pods-stormy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5620047A861C3BEDEAB27C4DA88F304B /* Pods-stormyUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8CFEDDAB196808AFA04CEEE1EA3AC5 /* Pods-stormyUITests-dummy.m */; };
+		5FB6DECB4731D8F122CA9AFC29D40EA0 /* Pods-stormy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F22FD11F52E154BD4ADA3876BD7A2BE6 /* Pods-stormy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */; };
 		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */; };
 		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */; };
 		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */; };
+		83863BD61AAD564FEAE8E65EE5968660 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */; };
 		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */; };
 		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C1C119BCE81C53F76CAC2BE27C38E0 /* Alamofire-dummy.m */; };
 		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */; };
+		B51D19AEEF6FA1F452B5D8EA9D1997E7 /* Pods-stormyTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB382DA0EEB6B510CB7139578B5210C /* Pods-stormyTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */; };
 		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */; };
 		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */; };
 		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */; };
 		D216943075AECA80745CB0E815BCF43D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D4A5731A506386744CA135AA063396BC /* Pods-stormyUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 534EE4C668AE97227DBE8E80B11EF23B /* Pods-stormyUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */; };
 		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */; };
 		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */; };
@@ -43,46 +49,76 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03114BCC37B44E2F092BD06649216B82 /* Pods-stormy-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-stormy-resources.sh"; sourceTree = "<group>"; };
 		04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		0850342DED667EE3D6DE2C6552E7EBAB /* Pods-stormy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-stormy.modulemap"; sourceTree = "<group>"; };
+		0BC4F83938948CCA1FAE7EE717FF1D0A /* Pods-stormyUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-stormyUITests-resources.sh"; sourceTree = "<group>"; };
 		0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		12E6F93DDCCD932EAD5D5017569B9C39 /* Pods-stormyUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-stormyUITests.modulemap"; sourceTree = "<group>"; };
 		13A0A663B36A229C69D5274A83E93F88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		1E230A0448B394DE26E688DAC8E6201E /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		2112CBE893DA1AF8C04A6481255CD7EA /* Pods-stormy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-stormy-acknowledgements.markdown"; sourceTree = "<group>"; };
 		22C1C119BCE81C53F76CAC2BE27C38E0 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		2D47F9DCFAFF226B68D3B7E958242288 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		327380DEBF93E0AD6C70FB3827DD34EF /* Pods-stormy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stormy.release.xcconfig"; sourceTree = "<group>"; };
+		261DDC10DC0DF25BBD11DB280DC45771 /* Pods_stormyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_stormyUITests.framework; path = "Pods-stormyUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A60F5EA83C3D09582ABA037C08F5E40 /* Pods-stormy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-stormy-frameworks.sh"; sourceTree = "<group>"; };
 		32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		384E19095B67D7289BC0EA6B74439A69 /* Pods-stormy-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-stormy-resources.sh"; sourceTree = "<group>"; };
+		3C03965E3E1DD7F9FD84294FF44327E5 /* Pods-stormy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-stormy-dummy.m"; sourceTree = "<group>"; };
 		3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		45187D459DEF621FAE3773EDAAD94AA2 /* Pods-stormy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-stormy-acknowledgements.plist"; sourceTree = "<group>"; };
+		45FCBCAB8441C97B69274D33A477820C /* Pods-stormyUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-stormyUITests-frameworks.sh"; sourceTree = "<group>"; };
 		46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		4AEBBB0059F8EB83FB5B73D707B8AA71 /* Pods-stormy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stormy.release.xcconfig"; sourceTree = "<group>"; };
 		4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		4B7FF5208E63CB79BDD64D5385BA628C /* Pods-stormy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-stormy-umbrella.h"; sourceTree = "<group>"; };
-		5B04620DD8D185148050868881F3333B /* Pods-stormy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-stormy-dummy.m"; sourceTree = "<group>"; };
+		4F8CFEDDAB196808AFA04CEEE1EA3AC5 /* Pods-stormyUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-stormyUITests-dummy.m"; sourceTree = "<group>"; };
+		534EE4C668AE97227DBE8E80B11EF23B /* Pods-stormyUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-stormyUITests-umbrella.h"; sourceTree = "<group>"; };
+		55EE44998A285FADA8724139BDBF4F31 /* Pods-stormyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-stormyTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		57901418F1EC65BF865F0E7A019053CF /* Pods-stormyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-stormyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		579AEAD9A23EBDFFD4F14EC5D0134E6C /* Pods-stormyTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-stormyTests.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		666496082262E9373EF5B06C9B95E07C /* Pods-stormy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stormy.debug.xcconfig"; sourceTree = "<group>"; };
 		66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		686F7731C1DAB60F629AB9079ACFBD03 /* Pods-stormyTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-stormyTests-resources.sh"; sourceTree = "<group>"; };
 		7D141D1953E5C6E67E362CE73090E48A /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		84E1984A6B950C51AC4BD6CD3673E8F3 /* Pods-stormy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-stormy-frameworks.sh"; sourceTree = "<group>"; };
+		80509ACD717AA39137522B849237E69F /* Pods-stormyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stormyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		83D8C07AC94C35E50D83261CB3B7057D /* Pods-stormyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stormyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		875FE0B4510D9E7FB284DF2278E6DF40 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		90795CE27D66C608562BA2134BC23E7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFC2151ABB07AFEC6ADAA72B87C3899 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FDE96818BC88B44F7D2F0B02DEFC761 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A2DBCA67F8D8D20440405399A93E464 /* Pods-stormy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stormy.debug.xcconfig"; sourceTree = "<group>"; };
+		9EB382DA0EEB6B510CB7139578B5210C /* Pods-stormyTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-stormyTests-umbrella.h"; sourceTree = "<group>"; };
 		A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		A335195FB3965B9A53942606552BA5D3 /* Pods_stormyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_stormyTests.framework; path = "Pods-stormyTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD53830BA8C89F99837067AC4CC552D5 /* Pods_stormy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_stormy.framework; path = "Pods-stormy.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		B1B59AD6246BC381E5073009294C917D /* Pods_stormy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_stormy.framework; path = "Pods-stormy.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B44A27EFBB0DA84D738057B77F3413B1 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		BB059CB870F0C6F8FBF710B747A22AAA /* Pods-stormyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stormyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BB574B352E671D6F75B33D88893C4AD9 /* Pods-stormyUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-stormyUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BCCA9CA7D9C1A2047BB93336C5708DFD /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		C2FA1142A9D37AC3174D3830AF384FED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBA791390231D080D39A7BE9C7D0E610 /* Pods-stormyTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-stormyTests-frameworks.sh"; sourceTree = "<group>"; };
 		DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		E29BB89AA252F29393D4208034BD76C3 /* Pods-stormy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-stormy-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2C2023F0E0344854D570965B6A3A2F2 /* Pods-stormyUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-stormyUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		ECBBC7F2DF67BCDAF8C8CCEEB0DC7A21 /* Pods-stormyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-stormyTests-dummy.m"; sourceTree = "<group>"; };
+		F22FD11F52E154BD4ADA3876BD7A2BE6 /* Pods-stormy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-stormy-umbrella.h"; sourceTree = "<group>"; };
+		F5828B98EBB324218F6D3626879FCB05 /* Pods-stormy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-stormy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7345C3056DE2B2F21718FD77E5AFC6D /* Pods-stormyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stormyTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7C0DC29EC8B941B0CD95AA7B037E8C6 /* Pods-stormy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-stormy.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		70664E2BDE049F5BE84D7800A0456AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83863BD61AAD564FEAE8E65EE5968660 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		89D1C785C5D490004CFF132D5F4A79D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -96,6 +132,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE1F93A3CD824D8166EA80FF101847D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC8F64AB35069962B1B2B3D4441679B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +180,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		448CD4C59E9A8AAD00DDEC15F2777F67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				875FE0B4510D9E7FB284DF2278E6DF40 /* Alamofire.framework */,
+				AD53830BA8C89F99837067AC4CC552D5 /* Pods_stormy.framework */,
+				A335195FB3965B9A53942606552BA5D3 /* Pods_stormyTests.framework */,
+				261DDC10DC0DF25BBD11DB280DC45771 /* Pods_stormyUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		55F14F994FE7AB51F028BFE66CEF3106 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,19 +205,37 @@
 			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
-		76A2AF9AF858AF9D3E9F0F6EC667D7AD /* Pods-stormy */ = {
+		7ABF6CD7B07C33AF6E559A0876036D16 /* Pods-stormyUITests */ = {
 			isa = PBXGroup;
 			children = (
-				90795CE27D66C608562BA2134BC23E7E /* Info.plist */,
-				0850342DED667EE3D6DE2C6552E7EBAB /* Pods-stormy.modulemap */,
-				2112CBE893DA1AF8C04A6481255CD7EA /* Pods-stormy-acknowledgements.markdown */,
-				E29BB89AA252F29393D4208034BD76C3 /* Pods-stormy-acknowledgements.plist */,
-				5B04620DD8D185148050868881F3333B /* Pods-stormy-dummy.m */,
-				84E1984A6B950C51AC4BD6CD3673E8F3 /* Pods-stormy-frameworks.sh */,
-				384E19095B67D7289BC0EA6B74439A69 /* Pods-stormy-resources.sh */,
-				4B7FF5208E63CB79BDD64D5385BA628C /* Pods-stormy-umbrella.h */,
-				666496082262E9373EF5B06C9B95E07C /* Pods-stormy.debug.xcconfig */,
-				327380DEBF93E0AD6C70FB3827DD34EF /* Pods-stormy.release.xcconfig */,
+				8FDE96818BC88B44F7D2F0B02DEFC761 /* Info.plist */,
+				12E6F93DDCCD932EAD5D5017569B9C39 /* Pods-stormyUITests.modulemap */,
+				BB574B352E671D6F75B33D88893C4AD9 /* Pods-stormyUITests-acknowledgements.markdown */,
+				E2C2023F0E0344854D570965B6A3A2F2 /* Pods-stormyUITests-acknowledgements.plist */,
+				4F8CFEDDAB196808AFA04CEEE1EA3AC5 /* Pods-stormyUITests-dummy.m */,
+				45FCBCAB8441C97B69274D33A477820C /* Pods-stormyUITests-frameworks.sh */,
+				0BC4F83938948CCA1FAE7EE717FF1D0A /* Pods-stormyUITests-resources.sh */,
+				534EE4C668AE97227DBE8E80B11EF23B /* Pods-stormyUITests-umbrella.h */,
+				83D8C07AC94C35E50D83261CB3B7057D /* Pods-stormyUITests.debug.xcconfig */,
+				BB059CB870F0C6F8FBF710B747A22AAA /* Pods-stormyUITests.release.xcconfig */,
+			);
+			name = "Pods-stormyUITests";
+			path = "Target Support Files/Pods-stormyUITests";
+			sourceTree = "<group>";
+		};
+		7D201015EF897A66D91E7FF8D038F6B1 /* Pods-stormy */ = {
+			isa = PBXGroup;
+			children = (
+				8BFC2151ABB07AFEC6ADAA72B87C3899 /* Info.plist */,
+				F7C0DC29EC8B941B0CD95AA7B037E8C6 /* Pods-stormy.modulemap */,
+				F5828B98EBB324218F6D3626879FCB05 /* Pods-stormy-acknowledgements.markdown */,
+				45187D459DEF621FAE3773EDAAD94AA2 /* Pods-stormy-acknowledgements.plist */,
+				3C03965E3E1DD7F9FD84294FF44327E5 /* Pods-stormy-dummy.m */,
+				2A60F5EA83C3D09582ABA037C08F5E40 /* Pods-stormy-frameworks.sh */,
+				03114BCC37B44E2F092BD06649216B82 /* Pods-stormy-resources.sh */,
+				F22FD11F52E154BD4ADA3876BD7A2BE6 /* Pods-stormy-umbrella.h */,
+				9A2DBCA67F8D8D20440405399A93E464 /* Pods-stormy.debug.xcconfig */,
+				4AEBBB0059F8EB83FB5B73D707B8AA71 /* Pods-stormy.release.xcconfig */,
 			);
 			name = "Pods-stormy";
 			path = "Target Support Files/Pods-stormy";
@@ -174,24 +247,35 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */,
-				B4FCED633B5BCA5F94298D12D677F010 /* Products */,
-				B920358772F00A4AF00061B570FD9631 /* Targets Support Files */,
+				448CD4C59E9A8AAD00DDEC15F2777F67 /* Products */,
+				B27CF273D8E83E7A25880713D3D3E351 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B4FCED633B5BCA5F94298D12D677F010 /* Products */ = {
+		978A64F0103FCF3C55D6047F6AB3E63F /* Pods-stormyTests */ = {
 			isa = PBXGroup;
 			children = (
-				2D47F9DCFAFF226B68D3B7E958242288 /* Alamofire.framework */,
-				B1B59AD6246BC381E5073009294C917D /* Pods_stormy.framework */,
+				C2FA1142A9D37AC3174D3830AF384FED /* Info.plist */,
+				579AEAD9A23EBDFFD4F14EC5D0134E6C /* Pods-stormyTests.modulemap */,
+				57901418F1EC65BF865F0E7A019053CF /* Pods-stormyTests-acknowledgements.markdown */,
+				55EE44998A285FADA8724139BDBF4F31 /* Pods-stormyTests-acknowledgements.plist */,
+				ECBBC7F2DF67BCDAF8C8CCEEB0DC7A21 /* Pods-stormyTests-dummy.m */,
+				DBA791390231D080D39A7BE9C7D0E610 /* Pods-stormyTests-frameworks.sh */,
+				686F7731C1DAB60F629AB9079ACFBD03 /* Pods-stormyTests-resources.sh */,
+				9EB382DA0EEB6B510CB7139578B5210C /* Pods-stormyTests-umbrella.h */,
+				80509ACD717AA39137522B849237E69F /* Pods-stormyTests.debug.xcconfig */,
+				F7345C3056DE2B2F21718FD77E5AFC6D /* Pods-stormyTests.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-stormyTests";
+			path = "Target Support Files/Pods-stormyTests";
 			sourceTree = "<group>";
 		};
-		B920358772F00A4AF00061B570FD9631 /* Targets Support Files */ = {
+		B27CF273D8E83E7A25880713D3D3E351 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				76A2AF9AF858AF9D3E9F0F6EC667D7AD /* Pods-stormy */,
+				7D201015EF897A66D91E7FF8D038F6B1 /* Pods-stormy */,
+				978A64F0103FCF3C55D6047F6AB3E63F /* Pods-stormyTests */,
+				7ABF6CD7B07C33AF6E559A0876036D16 /* Pods-stormyUITests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -215,6 +299,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		365AF2D98362BBD67084DF4B4E5B3D31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51D19AEEF6FA1F452B5D8EA9D1997E7 /* Pods-stormyTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A7765EAD4676E9D28A404237D38D9A50 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -228,6 +320,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9CD489F82A3346697709568B9957646 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4A5731A506386744CA135AA063396BC /* Pods-stormyUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +349,7 @@
 			);
 			name = "Pods-stormy";
 			productName = "Pods-stormy";
-			productReference = B1B59AD6246BC381E5073009294C917D /* Pods_stormy.framework */;
+			productReference = AD53830BA8C89F99837067AC4CC552D5 /* Pods_stormy.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
@@ -266,7 +366,41 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 2D47F9DCFAFF226B68D3B7E958242288 /* Alamofire.framework */;
+			productReference = 875FE0B4510D9E7FB284DF2278E6DF40 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B80AE9859DF1027E50A61A8203C45535 /* Pods-stormyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 135B82BC3EF7851F334C50768279B23A /* Build configuration list for PBXNativeTarget "Pods-stormyTests" */;
+			buildPhases = (
+				EB5D4642EBE12D54A947CE6CB8F26EEC /* Sources */,
+				70664E2BDE049F5BE84D7800A0456AE0 /* Frameworks */,
+				365AF2D98362BBD67084DF4B4E5B3D31 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-stormyTests";
+			productName = "Pods-stormyTests";
+			productReference = A335195FB3965B9A53942606552BA5D3 /* Pods_stormyTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB9EA503D134C63A0B941B23B982D390 /* Pods-stormyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A077F364D77FC8D6C5F936B193E9352 /* Build configuration list for PBXNativeTarget "Pods-stormyUITests" */;
+			buildPhases = (
+				57695053292B7FB1792425388A1651C5 /* Sources */,
+				BDE1F93A3CD824D8166EA80FF101847D /* Frameworks */,
+				E9CD489F82A3346697709568B9957646 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-stormyUITests";
+			productName = "Pods-stormyUITests";
+			productReference = 261DDC10DC0DF25BBD11DB280DC45771 /* Pods_stormyUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -286,12 +420,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B4FCED633B5BCA5F94298D12D677F010 /* Products */;
+			productRefGroup = 448CD4C59E9A8AAD00DDEC15F2777F67 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
 				5354FCCA6C095F7BA25421C85E7A062C /* Pods-stormy */,
+				B80AE9859DF1027E50A61A8203C45535 /* Pods-stormyTests */,
+				CB9EA503D134C63A0B941B23B982D390 /* Pods-stormyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -322,6 +458,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		57695053292B7FB1792425388A1651C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5620047A861C3BEDEAB27C4DA88F304B /* Pods-stormyUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5D4642EBE12D54A947CE6CB8F26EEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1785D4BEBE6F58677FE08E471D0E0C /* Pods-stormyTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F157F8289DB0A6650B42926C1F821894 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -342,7 +494,43 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		643C76AA582046977B7877822ED7A258 /* Debug */ = {
+		0BFCC5F36608992A9AC15B2850D817D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80509ACD717AA39137522B849237E69F /* Pods-stormyTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-stormyTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-stormyTests/Pods-stormyTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_stormyTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -382,7 +570,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -424,9 +612,45 @@
 			};
 			name = Release;
 		};
-		7DD2535715EB8D8FF94B087AAC0148FC /* Debug */ = {
+		8C98D589FD605C0982D49226E2AB05D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 666496082262E9373EF5B06C9B95E07C /* Pods-stormy.debug.xcconfig */;
+			baseConfigurationReference = 83D8C07AC94C35E50D83261CB3B7057D /* Pods-stormyUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-stormyUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-stormyUITests/Pods-stormyUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_stormyUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A52465C4713CB8E781CAE5CC6D3B759A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A2DBCA67F8D8D20440405399A93E464 /* Pods-stormy.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -442,7 +666,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-stormy/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-stormy/Pods-stormy.modulemap";
@@ -463,9 +687,9 @@
 			};
 			name = Debug;
 		};
-		84DC4DBA78F892A8DB3C98491A8342BB /* Release */ = {
+		A849D143722DE6685440A488C009B9E5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 327380DEBF93E0AD6C70FB3827DD34EF /* Pods-stormy.release.xcconfig */;
+			baseConfigurationReference = 4AEBBB0059F8EB83FB5B73D707B8AA71 /* Pods-stormy.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -481,7 +705,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-stormy/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-stormy/Pods-stormy.modulemap";
@@ -501,7 +725,7 @@
 			};
 			name = Release;
 		};
-		C03B8870130C98D1B02B59D003687524 /* Release */ = {
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -537,7 +761,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -580,14 +804,95 @@
 			};
 			name = Debug;
 		};
+		D91975DD7173FAE57D9F9BBAC15C8627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB059CB870F0C6F8FBF710B747A22AAA /* Pods-stormyUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-stormyUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-stormyUITests/Pods-stormyUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_stormyUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2CAF31511948B89D54915B6DAE36AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7345C3056DE2B2F21718FD77E5AFC6D /* Pods-stormyTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-stormyTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-stormyTests/Pods-stormyTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_stormyTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		135B82BC3EF7851F334C50768279B23A /* Build configuration list for PBXNativeTarget "Pods-stormyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BFCC5F36608992A9AC15B2850D817D2 /* Debug */,
+				F2CAF31511948B89D54915B6DAE36AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2CD89DAB95A1BDB2D0E68D6F8A8549D8 /* Build configuration list for PBXNativeTarget "Pods-stormy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7DD2535715EB8D8FF94B087AAC0148FC /* Debug */,
-				84DC4DBA78F892A8DB3C98491A8342BB /* Release */,
+				A52465C4713CB8E781CAE5CC6D3B759A /* Debug */,
+				A849D143722DE6685440A488C009B9E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -595,8 +900,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				643C76AA582046977B7877822ED7A258 /* Debug */,
-				C03B8870130C98D1B02B59D003687524 /* Release */,
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -606,6 +911,15 @@
 			buildConfigurations = (
 				C9660A42FEDD040185578ADA021EC8E0 /* Debug */,
 				7D072D0D174F12EAACC1862DA756E67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A077F364D77FC8D6C5F936B193E9352 /* Build configuration list for PBXNativeTarget "Pods-stormyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C98D589FD605C0982D49226E2AB05D1 /* Debug */,
+				D91975DD7173FAE57D9F9BBAC15C8627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
