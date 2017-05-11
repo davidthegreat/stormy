@@ -1,0 +1,6 @@
+framework module Pods_stormyTests {
+  umbrella header "Pods-stormyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
