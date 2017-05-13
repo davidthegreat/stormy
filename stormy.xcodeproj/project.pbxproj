@@ -10,6 +10,7 @@
 		211D2A86013144FF5E9D6F73 /* Pods_stormy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D8588E63F0FD07729AE263 /* Pods_stormy.framework */; };
 		7B4EE4401F18FA795DE293CC /* Pods_stormyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57C285303261B3EC6CED3069 /* Pods_stormyUITests.framework */; };
 		C03204D514BEDEE3EE07504D /* Pods_stormyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5EB6B9625649182909C5100 /* Pods_stormyTests.framework */; };
+		D00ADFA71EC68CEF00493597 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00ADFA61EC68CEF00493597 /* Constants.swift */; };
 		D0920C921EC2565B00BBE06B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0920C911EC2565B00BBE06B /* AppDelegate.swift */; };
 		D0920C941EC2565B00BBE06B /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0920C931EC2565B00BBE06B /* WeatherVC.swift */; };
 		D0920C971EC2565B00BBE06B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0920C951EC2565B00BBE06B /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		9072315BF9DB23DC909D3BF0 /* Pods-stormyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stormyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-stormyTests/Pods-stormyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9E49A68974E54DB06C89F893 /* Pods-stormy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stormy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-stormy/Pods-stormy.debug.xcconfig"; sourceTree = "<group>"; };
 		A5EB6B9625649182909C5100 /* Pods_stormyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stormyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00ADFA61EC68CEF00493597 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D0920C8E1EC2565B00BBE06B /* stormy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stormy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0920C911EC2565B00BBE06B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0920C931EC2565B00BBE06B /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				D0920C981EC2565B00BBE06B /* Assets.xcassets */,
 				D0920C9A1EC2565B00BBE06B /* LaunchScreen.storyboard */,
 				D0920C9D1EC2565B00BBE06B /* Info.plist */,
+				D00ADFA61EC68CEF00493597 /* Constants.swift */,
 			);
 			path = stormy;
 			sourceTree = "<group>";
@@ -451,6 +454,7 @@
 			files = (
 				D0920C941EC2565B00BBE06B /* WeatherVC.swift in Sources */,
 				D0920C921EC2565B00BBE06B /* AppDelegate.swift in Sources */,
+				D00ADFA71EC68CEF00493597 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
