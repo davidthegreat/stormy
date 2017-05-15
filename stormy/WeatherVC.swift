@@ -61,8 +61,8 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         locationLabel.text = currentWeather.cityName
         
-        currentWeatherImage.image = UIImage(named: CurrentWeather.weatherType)
-        
+        currentWeatherImage.image = UIImage(named: currentWeather.weatherType)
+
     }
 
 
