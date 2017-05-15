@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -26,8 +27,12 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         tableView.delegate = self
         tableView.dataSource = self
         
+        print("111111111111111111111111111111111")
+        print(currentWeather)
+        print("111111111111111111111111111111111")
+
         currentWeather.downloadWeatherDetails {
-            
+            self.updateMainUI()
         }
     
     }
@@ -45,6 +50,19 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "weatherCell", for: indexPath)
         
         return cell
+    }
+    
+    func updateMainUI() {
+        dateLabel.text = currentWeather.date
+        
+        currentTempLabel.text = "\(currentWeather.currentTemp)°" // converts double into a string
+        
+        currentWeatherTypeLabel.text = currentWeather.weatherType
+        
+        locationLabel.text = currentWeather.cityName
+        
+        currentWeatherImage.image = UIImage(named: CurrentWeather.weatherType)
+        
     }
 
 
