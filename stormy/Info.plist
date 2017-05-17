@@ -46,5 +46,10 @@
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>We need your location to give you relevant, up-to-date weather information.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>still time.ttf</string>
+		<string>still time.ttf</string>
+	</array>
 </dict>
 </plist>
